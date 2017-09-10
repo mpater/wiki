@@ -1,0 +1,55 @@
+created: 20170429214018934
+modified: 20170506144711062
+tags: eBike
+title: BMS options
+type: text/vnd.tiddlywiki
+
+!!! COMPARISON OF BMS ICs FOR LARGE LI-ION BATTERY PACKS
+http://liionbms.com/html/BMS_IC_table.html
+
+
+!!! TI BMS Options
+
+# 9-to-15 Series (bq76940) Li-Ion and ~LiFePO4 Battery Monitor
+#* http://www.ti.com/product/bq76940
+
+#~LiFePO4 Battery Management Controller
+#*http://www.ti.com/product/bq78350-R1
+
+# TI Parametric Search - [[Products for Battery Chargers|http://www.ti.com/lsds/ti/power-management/battery-charger-ic-products.page#p338=LiFePO4]]
+
+
+
+!!! MAXIM BMS Options
+# Maxim > Parametric Search > ''Battery Monitors, Protectors, and Selectors'' - [[parametric search|https://para.maximintegrated.com/en/results.mvp?fam=batt_stat&tree=master]]
+# [[MAX17215|https://www.maximintegrated.com/en/products/power/battery-management/MAX17215.html]] - Stand-Alone ~ModelGauge m5 Fuel Gauge with SHA-256 Authentication
+#* 2S or 3S
+# [[MAX8725|https://www.maximintegrated.com/en/products/power/battery-management/MAX8725.html]] - Multichemistry Battery Chargers with Automatic System Power Selector
+#* 18V max pack
+# [[MAX8713|https://www.maximintegrated.com/en/products/power/battery-management/MAX8713.html]] - Simplified Multichemistry SMBus Battery Charger
+#* SMBus for 1-4 cells
+# [[ebike|https://www.maximintegrated.com/en/pst/run.mvp?q=ebike]] search
+# [[MAX14921EVKIT|https://www.maximintegrated.com/en/products/power/battery-management/MAX14921EVKIT.html]] - Evaluation Kit for the MAX14921
+#** 16-cell battery-management reference design
+#** Plugh-and-Play GUI Demonstrates All the Major Features of the [[MAX14921|https://www.maximintegrated.com/en/products/power/battery-management/MAX14920.html]]
+#** Passive-cell balancing is supported by external FET drivers. 
+
+!!! Linear Technologies
+# LTM8062 - 32VIN, 2A μModule (Power Module) Power Tracking Battery Charger
+#* 1-cell charger, wide Vin range
+#* http://www.linear.com/product/LTM8062
+# LTC4098-3.6 - USB Compatible Switching Power Manager/~LiFePO4 Charger with Overvoltage Protection
+#* USB 5V to ~LiFePO4 charger...
+#* http://www.linear.com/product/LTC4098-3.6
+# LTC4156 - Dual-Input Power Manager/ 3.5A ~LiFePO4 Battery Charger with I2C Control and USB OTG
+#* General purpose charger. SMBus status
+#* http://www.linear.com/product/LTC4156
+
+!!! Other
+# General [[search|https://www.google.co.uk/search?q=lifepo+charger&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj39YjIuJnSAhWJOsAKHeiuBDIQ_AUICSgC&biw=1920&bih=989#imgrc=_]]
+# ~LiFePO4 Batteries Help Consumer Devices COME TO LIFE - [[article|http://www.powerelectronics.com/mobile/lifepo4-batteries-help-consumer-devices-come-life]]
+#* example of charge current
+# [[LiFePO4 Battery Chargers|http://www.batteryspace.com/smartchargerforlifepo4batterypacks.aspx]]
+# ebay
+## [[PCB Protection Board Charger for 3.2V (3V) LiFePO4 Battery Pack Cell at 10A max|http://www.ebay.com/itm/PCB-Protection-Board-Charger-for-3-2V-3V-LiFePO4-Battery-Pack-Cell-at-10A-max-/250921961573]]
+## [[MAX1879 Lithium Battery/ Iron phosphate 18650 A123 Charging PCB solar power|http://www.ebay.com/itm/MAX1879-Lithium-Battery-Iron-phosphate-18650-A123-Charging-PCB-solar-power-/121267763283]]

@@ -1,0 +1,16 @@
+created: 20170903091948988
+modified: 20170903092609773
+tags: TableOfContents
+title: Embedded Router Research
+type: text/vnd.tiddlywiki
+
+Router model: RUT950 <br>
+[img[https://risingconnection.com.au/wp-content/uploads/2016/10/rut950-motherboard-diagram1.png]]
+https://risingconnection.com.au/product/teltonika-rut950/
+
+Interesting, monitoring options: Monitoring by SNMP, SNMP trap, TR-069
+
+!! System on board module
+
+search: huawei lte module
+[img[http://consumer-res.huaweistatic.com/solutions/ucmc/groups/public/documents/consumer_news/hw_258876.jpg]]

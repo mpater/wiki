@@ -1,0 +1,85 @@
+created: 20170902151652624
+modified: 20170903091459480
+tags: TableOfContents
+title: ARM Controller
+type: text/vnd.tiddlywiki
+
+!! AT91SAM
+* AT91SAM9260B-CU-ND
+** IC MCU 32BIT 32KB ROM 217BGA
+** EBI/EMI, Ethernet, I²C, Memory Card, SPI, SSC, UART/USART, USB
+* AT91SAM9N12-CURCT-ND
+** IC MCU 32BIT 128KB ROM 217BGA
+** EBI/EMI, I²C, Memory Card, SPI, SSC, UART/USART, USB
+
+
+
+!! SAM9X ARM9 Microprocessors
+
+Product sheet overview for ARM SAMA5 Cortex-A5 MPU - [[link|http://www.atmel.com/Images/6280S-Atmel-SMART-ARM-Core-based-Embedded-Microprocessors.pdf]]. Best place to print out and review all products. 
+
+* [[Overview|http://www.atmel.com/products/microcontrollers/arm/sam9x.aspx]]
+** AT91SAM9X25
+*** ARM926EJ Embedded Microprocessor Unit, 400MHz, Dual Ethernet and CAN, HS USB, LPDDR/DDR2/MLC NAND support, 217 Pins
+** AT91SAM9X35
+*** ARM926EJ Embedded Microprocessor Unit, 400MHz, LCD, Touchscreen, Ethernet, Dual CAN, HS USB, LPDDR/DDR2/MLC NAND support, 217 Pins
+** ATSAMA5D2
+*** [[datasheet|http://www.atmel.com/images/atmel-11267-32-bit-cortex-a5-microcontroller-sama5d2_datasheet.pdf]]
+*** ATSAMA5D26B-CU-ND 
+**** IC MCU 32BIT EXT MEM 289LFBGA
+**** EBI/EMI, Ethernet, I²C, IrDA, LIN, MMC/SDIO/SD, QSPI, SPI, SSC, UART/USART, USB
+*** ATSAMA5D2-XULT - [[link|http://www.atmel.com/tools/atsama5d2-xult.aspx?tab=related]]
+** ATSAM9N12/ATSAM9CN11/ATSAM9CN12
+*** [[datasheet|http://www.atmel.com/Images/atmel-11063-32-bit-arm926ej-s-embedded-microprocessor-sam9n12-sam9cn11-sam9cn12_datasheet.pdf]]
+** ATSAM9260
+** [[datasheet|http://www.atmel.com/images/atmel-6221-32-bit-arm926ej-s-embedded-microprocessor-sam9260_datasheet.pdf]]
+
+!! AT91 Series
+* AT91SAM9260B-QU-ND
+** AT91SAM9260B-QU
+** IC MCU 32BIT 32KB ROM 208QFP
+** ARM9® AT91SAM Microcontroller IC 16/32-Bit 180MHz 32KB (32K x 8) ROM 208-PQFP (28x28)
+** 3345 available
+* AT91SAM9N12-CU-ND
+** AT91SAM9N12-CU
+** IC MCU 32BIT 128KB ROM 217BGA
+** ARM9® SAM9N Microcontroller IC 16/32-Bit 400MHz 128KB (128K x 8) ROM 217-BGA (15x15)
+** 239 available
+
+
+! Memory
+!! Flash Memory
+
+[[Flash Memory Structure overview|http://www.black-swift.com/wiki/index.php?title=Flash_memory_structure]]
+
+* 557-1543-1-ND
+** MT29F2G08ABBEAHC:E TR
+** IC FLASH 2GBIT 63VFBGA
+** FLASH - NAND Memory IC 2Gb (256M x 8) Parallel 63-VFBGA (10.5x13)
+** 85 available at 8.07CAN
+
+* 1274-1044-ND
+** S34ML04G200TFI000
+** IC FLASH 4GBIT 25NS 48TSOP
+** FLASH - NAND Memory IC 4Gb (512M x 8) Parallel 48-TSOP I
+** 0 available for 12.46CAN
+
+* 706-1376-ND
+** IS43TR16640BL-125JBL
+** IC SDRAM 1GBIT 800MHZ 96BGA
+** SDRAM - DDR3L Memory IC 1Gb (64M x 16) Parallel 20ns 96-TWBGA (9x13)
+** 438 available for 6.94CAN
+
+* W9751G6KB-25-ND
+** W9751G6KB-25
+** IC SDRAM 512MBIT 400MHZ 84BGA
+** SDRAM - DDR2 Memory IC 512Mb (32M x 16) Parallel 400ps 84-WBGA (8x12.5)
+** 28,780 available for 4.43CAN
+
+!! Supervisory IC
+* digikey [[search|https://www.digikey.ca/products/en?keywords=APX823]]
+* APX823 - [[link|https://www.diodes.com/products/power-management/microprocessor-supervisory-IC/part/APX823#tab-overview]]
+** Voltage Detector
+
+* AP7333 - 300mA LDO - [[link|https://www.diodes.com/products/power-management/low-dropout-regulators/single-ldos/part/AP7333]]
+** SOT23

@@ -1,0 +1,42 @@
+created: 20170429222402834
+modified: 20170902151612557
+tags: EV
+title: eBike
+type: text/vnd.tiddlywiki
+
+! Hub
+!! Geared Hub
+# 48V 500W 8Fun/Bafang Brushless Geared DC Threaded Rear Hub Motor 135mm Ebike
+#* [[link|http://www.ebay.co.uk/itm/192116672291]] - 143GBP
+#* [img[http://www.szbaf.com/fileadmin/_processed_/csm_8-25_RM_G01.250.D-01_954347c11a.png]]
+
+http://www.sheldonbrown.com/frame-spacing.html#standard
+Trek 1.1 has 130mm spacing. 8FUN seems to have 135. Bend to obtain 135mm spacing?
+
+- https://lunacycle.com/geared-hub-ebike-kit-750w-for-front-or-rear/
+
+- https://www.e-bikeshop.co.uk/blog/post/e-bikeshop-visit-bosch-for-training-session-on-the-new-2014-ebike-system/
+
+- http://electricbikebuilding.com/
+
+! Controller
+!! TI Controller
+Link to TI InstaSPIN cape thing
+# LPC1549 LPCXPRESSO MOTOR CONTROL KIT (BLDC)
+#* [[link|https://www.embeddedartists.com/products/lpcxpresso/lpc1549_xpr_motor.php]]
+[img[https://www.embeddedartists.com/sites/default/files/image/product/xpr_motor_kit_revb_banner.png]]
+
+!! ~PowerMOSFET
+# 100V Single N-Channel HEXFET Power MOSFET in a TO-247AC package
+## https://octopart.com/irfp4468pbf-international+rectifier-8602287
+! ESS
+See [[General Li-Ion Information]].
+
+! MISC
+!! Wiring
+* UL3286 specs
+** http://www.huahao-wire.com/ul3286.html
+* Choose colour/s and length/s (per metre) required and add to notes when ordering. ISO 6722/2002. 1.0mm-sq
+** http://stores.ebay.co.uk/In-Car-Design-Ltd/Cable-/_i.html?_nkw=1.0mm&submit=Search&LH_TitleDesc=1&_fsub=50706517013&_sid=1081073553
+* 72 COLOURS IN STOCK - 5m of 1mm² 12v 16.5A Automotive car marine wire cable
+** http://www.ebay.co.uk/itm/72-COLOURS-IN-STOCK-5m-of-1mm-12v-16-5A-Automotive-car-marine-wire-cable-/162463602722?

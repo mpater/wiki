@@ -1,0 +1,12 @@
+created: 20170902102630804
+modified: 20170902103043410
+tags: eBike
+title: controller software
+type: text/vnd.tiddlywiki
+
+I2C parsing example
+https://www.i2cdevlib.com/devices/adxl345#registers
+
+Python and I2C - [[py-i2c-register|https://pypi.python.org/pypi/py-i2c-register/0.0.8\]]
+
+Python struct - [[struct|https://docs.python.org/2/library/struct.html]]

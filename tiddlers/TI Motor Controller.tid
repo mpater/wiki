@@ -1,0 +1,59 @@
+created: 20170903084430535
+modified: 20170903105513826
+tags: TableOfContents
+title: TI Motor Controller
+type: text/vnd.tiddlywiki
+
+!! ~InstaSPIN
+
+Overview [[page|http://www.ti.com/ww/en/mcu/instaspin/tools_software.shtml]].
+
+[[MotorWare|http://www.ti.com/tool/motorware]] comes with InstaSPIN-FOC and InstaSPIN-MOTION. 
+
+* BOOSTXL-DRV8301
+* BOOSTXL-DRV8305EVM
+* DRV8301-69M-KIT
+* DRV8305-Q1EVM
+* DRV8312-69M-KIT
+* TMDSHVMTRINSPIN
+
+[[InstaSPIN-BLDC|http://www.ti.com/tool/InstaSPIN-BLDC]] - Uses [[controlSUITE|http://www.ti.com/tool/controlsuite]]
+
+* DRV8301-HC-C2-KIT, DRV8302-HC-C2-KIT
+* DRV8312-C2-KIT
+
+
+[[InstaSPIN|http://www.ti.com/ww/en/mcu/instaspin/tools_software.shtml]] page link. <br>
+TI InstaSPIN™ sensorless, three-phase motor solutions are offered on a variety of hardware platforms and software tools using TI's Cortex-RM, Cortex-M4, and C2000™ microcontrollers in order to make designing motor control applications easier.
+
+!!! LAUNCHXL-F28069M
+* InstaSPIN-MOTION (and InstaSPIN-FOC) enabled C2000 Piccolo LaunchPad - [[page link|http://www.ti.com/tool/launchxl-f28069m#2]]
+* LAUNCHXL-F28069M is a low cost evaluation and development tool for the Piccolo F2806x series as well as the InstaSPIN-FOC and InstaSPIN-MOTION enabled Piccolo F2806x series in the TI MCU LaunchPad ecosystem which is compatible with various plug-on BoosterPacks
+* [img[http://www.ti.com/diagrams/med_launchxl-f28069m_launchxl-f28069m-3.jpg]]
+* uses AD2S1205 - 12bit R/D converter
+* uses? [[TMS320F28335|http://www.ti.com/product/TMS320F28335/toolssoftware]]
+
+!!! LAUNCHXL-F28377S
+* C2000 Delfino MCUs F28377S LaunchPad Development Kit
+* LAUNCHXL-F28377S is a low cost evaluation and development tool for the Delfino F2837xS series in the TI MCU LaunchPad ecosystem which is compatible with various plug-on BoosterPacks
+* [img[http://www.ti.com/diagrams/med_launchxl-f28377s_angle_june5.jpg]]
+
+!!! DRV8305N 3-Phase Motor Drive BoosterPack Evaluation Module
+* BOOSTXL-DRV8305EVM -  [[page link|http://www.ti.com/tool/boostxl-drv8305evm]]
+* [img[http://www.ti.com/diagrams/med_boostxl-drv8305evm_tool_folder_8305.jpg]]
+
+!!! InstaSPIN QuadCopter
+https://e2e.ti.com/administrators1/microcontrollerprojects/f/905/t/256948
+[img[http://e2e.ti.com/resized-image.ashx/__size/550x0/__key/communityserver-discussions-components-files/905/6253.IMG_5F00_20130306_5F00_153638.jpg]]
+
+!!! High Voltage Motor Control Kit with InstaSPIN-FOC and InstaSPIN-MOTION enabled Piccolo MCU
+http://www.ti.com/tool/tmdshvmtrinspin <br>
+[img[http://www.ti.com/diagrams/med_tmdshvmtrinspin_hvmtrinspin_b.jpg]]
+
+!! Software
+
+!!! Motor Kit Application Software for TMDSCNCD28069MISO controlCARDs
+* MOTORKITSCNCD69MISO - [[page link|http://www.ti.com/tool/motorkitscncd69miso]]
+* Latest USB Stick contents for all InstaSPIN-FOC and InstaSPIN-MOTION motor kits: DRV8312-69M-KIT, DRV8301-69M-KIT, TMDSHVMTRINSPIN, which include the InstaSPIN-FOC and InstaSPIN-MOTION technologies
+
+* [img[http://www.ti.com/diagrams/med_motorkitscncd69miso_kit_contents-1.jpg]]

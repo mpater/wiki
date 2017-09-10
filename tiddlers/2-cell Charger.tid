@@ -1,0 +1,129 @@
+created: 20170506144713175
+modified: 20170529002409502
+tags: EV
+title: 2-cell Charger
+type: text/vnd.tiddlywiki
+
+!!! Requirements: 
+
+* Discharging
+** Output Current Limit? -> BQ29706
+** Over Discharge Limit -> 
+** Over Temperature Limit ->
+* Charging
+** Over Charge Limit ->
+** Over Current Limit -> 
+** Over Temperature Limit ->
+
+So basically it seems that the ''BQ43110'' is for 'rarely discharged' applications. The ''BQ34Z100'' is just a 'battery fuel gauge', no protection or balancing features. The ''BQ28Z610'' seems to be best of both worlds as it is a fuel gauge, cell-balancer and protection circuit all-in-one but it does not do charging. It can suggest desired charging Voltage and Current but cannot actually regulate these functions, instead something like ''BQ24773'' is needed. This would need TONS of additional components but both can communicate without an external processor.
+For a simple 2S charger circuit, the ''MCP73223'' could be a simple choice to get going as the fuel-gauge and charger IC require software to get setup.  
+
+
+Possible Windows software for configuring chips: [[BQStudio|http://www.ti.com/tool/BQStudio]]
+
+!!! Fuel Gauge
+# Multi-Chemistry Standalone Fuel Gauge | Battery Gas Gauge
+#* Capacity estimation using Impedance Track
+#* up to 65V, 65Ah, 65A
+#* LED output indication
+#* SOC, Remaining Capacity, Voltage, Average Amps, Temperature, Current
+#* Time to Empty, Time to Full, Available Energy, Cycle Count, State Of Health
+#* TSSOP 14
+#* [[BQ34Z100|http://www.ti.com/product/bq34z100-g1/description]]
+
+# Multi-Chemistry High-cell Count Battery Fuel Gauge w/Integrated Rarely Discharged Module
+#* pretty much the same as above, also able to configure LEDs, etc. Real difference? TBD. 
+#* [[Commands|http://www.ti.com/lit/ug/sluubf7/sluubf7.pdf]]
+#* [[BQ34110|http://www.ti.com/lit/ds/symlink/bq34110.pdf]]
+
+!!! Battery Monitor and Protection
+# Voltage Protection with Automatic Cell Balance For 2-Cell Li-Ion Batteries, OVP=4.30V
+#* Higher Volt than ~LiFePO4
+#* ONLY does cell balancing and OV protection
+#* [[BQ29209|http://www.ti.com/product/bq29209]]
+
+# Voltage and Current Protection Integrated Circuit for Single-Cell Li-Ion and Li-Polymer Batteries
+#* Over Voltage: 3.85V
+#* Over-current (OCP), Over-voltage (OV), Short-circuit Discharge (SCD), Under-voltage (UV) 
+#* No Communication
+#* [[BQ29706|http://www.ti.com/product/bq2970]]
+
+!!! Battery Charger / Management
+# 1-4S I2C NVDC Battery Charge Controller with System Power Monitor
+#* Program Input Voltage and Current
+#* [[BQ24773|http://www.ti.com/product/bq24773]]
+
+# Switch-Mode Charger Controller
+#* Standalone charger unit
+#* [[Using the bq24650 to Charge LiFePO4 Battery|http://www.ti.com/lit/an/slua565/slua565.pdf]]
+#* [[BQ24650|http://www.ti.com/product/BQ24650]]
+
+# Complete Dual Cell Linear Charge Management Controller
+#* Standalone 2-cell charger controller
+#* [[Microchip battery charchers chips|http://www.electroniq.net/blog/microchip-battery-charchers-chips.html]]
+#* [[MCP73223-C2S/MF|http://www.microchip.com/wwwproducts/en/MCP73223]]
+
+# Basic 2A, 2-Cell ~LiFePO4 Battery Charger with C/10 Termination
+#* 9.5-32Vin for 2x3.6V
+#* LGA package, very difficult to solder? Its like a BGA. 
+#* [[LTM8062|http://www.linear.com/solutions/5572]]
+
+!!! Output monitoring and protection
+# 2.7 V-18 V, 5-A eFuse Power MUX With Multiple Protection Modes
+#* Adjustable Rise Time
+#* Features
+#** Adjustable Rise Time
+#** Current Sense/Monitor
+#** Fault Reporting
+#** Overvoltage Protection
+#** Power Good
+#** Power MUXing
+#** Reverse Current Protection
+#** Thermal Shutdown
+#** Undervoltage Protection
+#** Current Limiting -> adjustable but not programmable
+#* [[TPS25942L|http://www.ti.com/product/tps25942l/description]]
+
+!!! BMS for eBIKE
+# BQ76200 - Charge and Discharge protection monitor (dumb). Needed as BQ76940 has integrated?
+# ''BQ76940'' - 9-15S cell battery monitor and balancer
+# ''BQ78350-R1'' - 'CEDV' Fuel-gauge to use with BQ76940
+# BQ34Z100-G1 - Fuel gauge but no balancing, not best choice. 
+# ?- 3-16 cell Active Cell Balancer
+
+!!! USB MCU
+# Texas Instruments MSP430F5500 or MSP430F5510
+#* [[product link|https://www.digikey.co.uk/product-detail/en/texas-instruments/MSP430F5500IRGZR/296-27553-1-ND/2331791]]
+#* Starting a USB design - [[application note|http://www.ti.com/lit/an/slaa457a/slaa457a.pdf]]
+#* Various MSP430 references - [[link|http://processors.wiki.ti.com/index.php/Open_Source_Projects_-_MSP430#Open_Source_Hardware_Tools]]
+#* TI MSP430 Programmer
+#** ???
+#* TI MSP430 IDE
+#** ??? - command-line available, dedicated IDE?
+
+# STMicroelectronics STM32
+#* [[STM32L052K8T6|https://www.digikey.co.uk/product-detail/en/stmicroelectronics/STM32L052K8T6/497-14904-ND/4935253]]
+#* STM32 Programmer
+#** [[ST-LINK v2|https://www.adafruit.com/product/2548]]
+#*** Serial programming and debugging
+#* STM32 IDE
+#** multi-OS IDE available
+
+# Freescale/NXP Kinetis
+#* ie. [[FRDM-K22F|https://developer.mbed.org/platforms/FRDM-K22F/]] development board with mbed
+#* [[toolchains|https://mcuoneclipse.com/2013/07/20/dyi-free-toolchain-for-kinetis-part-1-gnu-arm-build-tools/]]
+#* [[KL2|https://www.digikey.co.uk/product-detail/en/nxp-usa-inc/MKL26Z128VFM4/MKL26Z128VFM4-ND/4234806]] series - 3GBP. Various options: [[list|https://www.digikey.co.uk/products/en/integrated-circuits-ics/embedded-microcontrollers/685?k=Kinetis&k=&pkeyword=Kinetis&pv1113=716&pv1113=717&pv1113=833&pv1113=702&pv1113=704&pv1113=122&pv1113=434&FV=ffe002ad%2C1f140000&mnonly=0&newproducts=0&ColumnSort=0&page=1&stock=1&quantity=0&ptm=0&fid=0&pageSize=25]]
+#* Programmer
+#** Serial?
+#* IDE
+#** mbed?
+#*** [[general info|https://en.wikipedia.org/wiki/Mbed]]
+#*** Cortex-M0+
+#**** NXP Kinetis E, EA, L, M, V1, W0
+#**** NXP LPC8xx, LPC11E6x, [[LPC11U6x|https://www.digikey.co.uk/product-detail/en/nxp-usa-inc/LPC11U67JBD48E/568-11002-ND/4557153]]
+#**** STMicroelectronics STM32 L0
+#*** Cortex-M3
+#**** Atmel SAM 3A-3N-3S-3U-3X
+#**** NXP LPC13xx ([[LPC1343FBD48,151|https://www.digikey.co.uk/product-detail/en/nxp-usa-inc/LPC1343FBD48,151/568-4945-ND/2180456]] or [[LPC1342FHN33,551|https://www.digikey.co.uk/product-detail/en/nxp-usa-inc/LPC1342FHN33,551/568-4946-ND/2180454]]), LPC17xx, LPC18xx
+#**** STMicroelectronics STM32 F1, F2, L1, W
+#**** Texas Instruments F28, LM3, TMS470, OMAP 4

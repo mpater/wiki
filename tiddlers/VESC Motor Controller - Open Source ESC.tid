@@ -1,0 +1,14 @@
+created: 20170903105514976
+modified: 20170903110034343
+tags: TableOfContents
+title: VESC Motor Controller - Open Source ESC
+type: text/vnd.tiddlywiki
+
+Open Source BLDC Motor Controller. 
+* Schematics available in KiCAD
+** STM32F4 microcontroller
+** Firmware based on ChibiOS/RT
+* Tuning software GUI available
+* http://vedder.se/2015/01/vesc-open-source-esc/
+* [img[http://vedder.se/wp-content/uploads/2015/01/Schematic-1-1024x725.png]]
+* [img[http://vedder.se/wp-content/uploads/2015/01/PCB_Front-1024x683.png]]

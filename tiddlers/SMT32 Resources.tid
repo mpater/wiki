@@ -1,0 +1,80 @@
+created: 20170902103134115
+modified: 20170903102702180
+tags: eBike
+title: SMT32 Resources
+type: text/vnd.tiddlywiki
+
+!! IDE
+!!! STM32 Open Development Environment
+[[STM32 Open Development Environment (STM32 ODE)|http://www.st.com/en/ecosystems/stm32-open-development-environment.html]]
+is an open, flexible, easy and affordable way to develop innovative devices and applications based on the STM32 32-bit microcontroller family combined with other state-of-the-art ST components connected via expansion boards. It enables fast prototyping with leading-edge components that can quickly be transformed into final designs.
+
+* STM32 Nucleo development boards.
+* STM32 Nucleo expansion boards. 
+* STM32Cube software.
+* STM32Cube expansion software.
+* STM32 ODE Function Packs.
+
+!!! System Workbench for STM32
+The System Workbench toolchain, called SW4STM32, is a free multi-OS software development environment based on Eclipse, which supports the full range of STM32 microcontrollers and associated boards
+
+* [[page link|http://www.st.com/en/development-tools/sw4stm32.html]]
+* [[download page|http://www.openstm32.org/Installing+System+Workbench+for+STM32+with+installer]]
+
+!!! How do I develop for STM32 discovery on Linux
+* [[StackOverflow question|https://electronics.stackexchange.com/questions/32991/how-do-i-develop-for-stm32-discovery-on-linux]]
+* [[Compiling STM32 examples in Linux|http://snowcap.fi/blog/2011/11/27/compiling-stm32-examples-in-linux/]]
+* [[Programming STM32 F2, F4 ARMs under Linux: A Tutorial from Scratch|http://www.triplespark.net/elec/pdev/arm/stm32.html]]
+* [[Build a Program for STM32 MCU Under Linux|http://www.instructables.com/id/Build-a-Program-for-STM32-MCU-Under-Linux/]]
+
+
+
+!! Development Boards
+
+!!! Leaflabs Leaf Maple Mini Module
+STM32 ARM Cortex-M3 Leaflabs Leaf Maple Mini Module For Arduino
+
+* https://www.banggood.com/STM32-ARM-Cortex-M3-Leaflabs-Leaf-Maple-Mini-Module-For-Arduino-p-1110609.html
+
+https://www.leaflabs.com/maple/
+https://github.com/leaflabs/maple/tree/master/maple-r5
+https://cdn.sparkfun.com/datasheets/Dev/ARM/maplemini.pdf
+
+!!! NUCLEO-L053R8
+STM32 Nucleo-64 development board with STM32L053R8 MCU, supports Arduino and ST morpho connectivity
+
+* [[page link|http://www.st.com/en/evaluation-tools/nucleo-l053r8.html]]
+* STM32 microcontroller in QFP64 package
+* ARM mbed
+* USB re-enumeration capability: Virtual COM port, Mass Storage, Debug port
+* [img[http://www.st.com/content/ccc/fragment/product_related/rpn_information/board_photo/9e/75/14/86/ee/4a/43/78/nucleo-Lx.jpg/files/nucleo-Lx.jpg/_jcr_content/translations/en.nucleo-Lx.jpg]]
+
+!!! Nucleo32 Development Board STM32F042K6T6
+* NUCLEO-F042K6
+* RS PN: 909-2853 - 8.26GBP
+* Arduino nano connectivity
+* on-board ST-LINK/V2-1 debugger/programmer
+
+
+
+
+!! Example Tutorials
+!!! Tutorial: Create a Blinky ARM test project
+
+* [[page link|https://gnu-mcu-eclipse.github.io/tutorials/blinky-arm/]]
+* GNU Tools for ARM Embedded Processors toolchain in mind
+
+!!! Arduino Goes STM32
+* [[page link|http://grauonline.de/wordpress/?page_id=1004]]
+* You can develop for STM32 using the Arduino IDE
+* STM32F103C8T6 module
+* [img[http://grauonline.de/wordpress/wp-content/uploads/arduino_stm32f103c8t6-300x249.jpg]][img[http://grauonline.de/wordpress/wp-content/uploads/arduino_stm32f103c8t6_schematics-300x208.png]]
+
+!! ICs
+
+* STMicroelectronics STM32L052K8T6
+** 497-14904-ND
+** IC MCU 32BIT 64KB FLASH 32LQFP
+** I²C, IrDA, SPI, UART/USART, USB
+** ARM® Cortex®-M0+ STM32 L0 Microcontroller IC 32-Bit 32MHz 64KB (64K x 8) FLASH 32-LQFP (7x7)
+* 2.80GBP

@@ -1,0 +1,78 @@
+created: 20170902104716644
+modified: 20170903081316096
+tags: TableOfContents
+title: ARM Linux Boards
+type: text/vnd.tiddlywiki
+
+Generic google search: [[embedded linux computer diy|https://www.google.co.uk/search?q=embedded+linux+computer+diy&client=ubuntu&espvd=2&biw=1920&bih=994&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjt09WFzqTJAhWLcBoKHSBoCMAQsAQILQ#cns=0&imgrc=OdeQpl0j-lkPCM:]]
+
+[[Gist|https://gist.github.com/mpater/1cfd094f44da53837c4775722e3d61a6]] for current research found. 
+
+!!! Olimex
+
+[[New Product Blog|https://olimex.wordpress.com/page/6/]]
+
+!!! [[iMX233-OLinuXino-NANO|https://www.olimex.com/Products/OLinuXino/iMX233/iMX233-OLinuXino-NANO/open-source-hardware]]
+* iMX233 ARM926J
+[img[https://www.olimex.com/Products/OLinuXino/iMX233/iMX233-OLinuXino-NANO/images/thumbs/310x230/iMX233-OLinuXino-NANO-1.jpg]]
+
+
+[[FPGA tutorial – VGA video generation with iCE40HX1K-EVB + iCE40-IO in Verilog|https://olimex.wordpress.com/2016/07/13/fpga-tutorial-vga-video-generation-with-ice40hx1k-evb-ice40-io-in-verilog/]]
+
+[[iCE40HX1K-EVB|https://www.olimex.com/Products/FPGA/iCE40/iCE40HX1K-EVB/open-source-hardware]]
+[img[https://www.olimex.com/Products/FPGA/iCE40/iCE40HX1K-EVB/images/thumbs/310x230/iCE40HX1K-EVB-1.jpg]]
+
+[[A20-SOM|https://www.olimex.com/wiki/A20-SOM#Is_it_possible_to_boot_Debian_from_NAND.3F_Do_you_provide_such_image.3F]]
+A20 dual core Cortex-A7 processor
+* 1GB DDR3 memory
+* AXP209 PMU IC
+* MicroSD card
+* UART console
+* 4GB NAND Flash
+[img[https://www.olimex.com/wiki/images/0/07/A20-SOM-1_jpeg.jpg]]
+[[BUILD_DESCRIPTION_A20_Olimex_kernel_3.4.103+_Jessie_rel_2.txt|https://github.com/OLIMEX/OLINUXINO/blob/master/SOFTWARE/A20/A20-build-3.4.103-release-2/BUILD_DESCRIPTION_A20_Olimex_kernel_3.4.103%2B_Jessie_rel_2.txt]] <br>
+How to make a bootable SD card for Olimex's A20-SOM, A20-OLinuXino-MICRO, A20-OLinuXino-LIME,
+A20-OLinuXino-LIME2 boards with sunxi kernel 3.4.103 and Linux Debian Jessie file system
+
+[[Olimex SAM9-L9260|https://www.olimex.com/Products/ARM/Atmel/SAM9-L9260/]] <br>
+Great explanation about MPU and connection flash, RAM, USB, etc. 
+
+[[Linuxstamp|http://www.opencircuits.com/Linuxstamp]] <br>
+AT91RM9200
+
+[[Linuxstamp II 9260| http://www.opencircuits.com/Linuxstamp_II_9260]]
+
+* Atmel AT91SAM9260 processor (Arm9 processor with MMU, 200Mhz operation)
+* 32MB SDRAM
+* 256MB NAND Flash
+* 1x 10/100 Ethernet
+* 1x USB host port (allows wifi adapters, flash drives and other USB devices to be used)
+* 1x micro-SD card slot
+* Serial debug port 5-pin header
+* JTAG port
+
+[[Cortex-A5|http://linuxgizmos.com/cortex-a5-sbc-offers-mainline-linux-support/]]<br>
+[img[http://linuxgizmos.com/files/emtrion_sbcsama5d36-thm.jpg]]
+
+!!! Atmel Xplained
+http://www.atmel.com/products/microcontrollers/avr/xplained.aspx <br>
+[[SAMA5D3 Xplained|http://www.atmel.com/tools/atsama5d3-xpld.aspx?tab=devices]]
+[[ATSAMA5D3-XPLD|http://uk.farnell.com/atmel/atsama5d3-xpld/dev-board-sama5d36-cortex-a5/dp/2355198?COM=superwidget-link_AtmelXplainedBoards%20CMPNULL]] -  Development Board, Cortex-A5 MCU, 2GBit DDR2, Ethernet, USB, Arduino R3-Compatible Header
+[img[http://uk.farnell.com/productimages/standard/en_GB/2355198-40.jpg]]
+
+[[SAMA5D3 Xplained|http://www.atmel.com/tools/ATSAMA5D3-XPLD.aspx?tab=overview]]
+
+[[Development Board Atmel SAM9-L9260|https://www.sparkfun.com/products/retired/9047]]
+AT91SAM9260
+[[ATSAMA5D2-XULT|http://www.atmel.com/tools/ATSAMA5D2-XULT.aspx?tab=documents]]
+[[AT91Bootstrap|http://www.at91.com/linux4sam/bin/view/Linux4SAM/AT91Bootstrap]]
+
+!!! Henrik Forsten's Open Source SBC
+Uses a AT91SAM9N12 BGA with DDR2 memory and Flash. Documents entire selection and board making process, best resource. 
+
+* [[Blog post|http://hforsten.com/making-embedded-linux-computer.html]]
+* [[schematic|http://hforsten.com/img/diy-bga/schematic.pdf]]
+* [[Github repo|https://github.com/Ttl/sam_board]]
+* [img[http://hforsten.com/img/diy-bga/11bgas.jpg]]
+
+

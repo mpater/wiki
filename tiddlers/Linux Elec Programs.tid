@@ -1,0 +1,18 @@
+created: 20170903110637943
+modified: 20170903130051919
+tags: TableOfContents
+title: Linux Elec Programs
+type: text/vnd.tiddlywiki
+
+* Oregano
+** Schematic capture and circuit simulation.
+* GVIM
+* yED
+* gerbV
+* Bless HEX Editor
+* htop
+* Tiddlywiki server
+** inside /Documents/wiki
+** node.js
+* liclipse
+* qucs

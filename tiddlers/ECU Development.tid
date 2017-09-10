@@ -1,0 +1,72 @@
+created: 20170430223933198
+modified: 20170910105338535
+tags: TableOfContents
+title: ECU Development
+type: text/vnd.tiddlywiki
+
+!!! Design Reference
+
+# Freescale - FTF-AUT-F0018 - Open Source Off-the-shelf Powertrain Reference Design
+#* https://www.speed2design.com/education-center/circuit-protection-for-automotive-applications/
+
+# Automotive over voltage regerence design [[search|https://www.google.co.uk/search?q=automotive+over+voltage+reference+design&biw=1920&bih=989&source=lnms&sa=X&ved=0ahUKEwigqJrPuoHSAhXILsAKHScXBqYQ_AUIBygA&dpr=1]]
+
+# Reverse Polarity and Overvoltage Protection Reference Design for Automotive Systems
+#* PMP10737 is a reference design that provides protection from reverse polarity (LM74610 Smart Diode Controller) and overvoltage using discrete components. Input voltage range is between 7V to 35V
+#* http://www.ti.com/tool/PMP10737
+
+# TI - Automotive Reverse Polarity Protection Reference Design
+#* http://www.ti.com/lit/ug/tiduc42/tiduc42.pdf
+
+# TI - Engine Management - ECU - Gasoline & Diesel Engine Platform
+#* http://www.ti.com/solution/engine_management_ecu_gasoline_diesel_engine_platform#Reference%20Designs
+#* [[PMP9498|http://www.ti.com/tool/PMP9498]] - Automotive Reverse Battery Protection Reference Design with Overcurrent and Overvoltage Shutoff
+
+
+# Complete Front End Automotive Reverse Polarity and Series Fault Protection Reference Design
+#* Features
+#** Protection from Maximum Reverse Voltage: -45V
+#** Fast Response to Dynamic Current Reversal: <5µsec
+#** OR-ing Controller
+#** Over Current Protection (Programmable): 20A
+#** Under Voltage Lockout Option: Programmable
+#** Over Voltage Protection (Programmable): 36V
+#* http://www.ti.com/tool/PMP10748
+
+# Reverse-Polarity Protection in Automotive Design - [[article|http://www.electronicdesign.com/power/reverse-polarity-protection-automotive-design]]
+
+# Infineon - Automotive MOSFETs - Reverse Battery Protection - [[article|http://www.infineon.com/dgdl/Reverse-Batery-Protection-Rev2.pdf?fileId=db3a304412b407950112b41887722615]]
+
+# ST - Multifunction IC with SPI interface for engine management system
+#* L9779WD-SPI is able to drive all the relevant loads used in powertrain applications (Injectors, Ignitions, Relay, etc.), to interface with Variable Reluctance Sensors and Hall sensors, to monitor diagnostic functionalities and to interact with the main networks present in powertrain environment (CAN, K-Line).
+#* [[L9779WD-SPI|http://www.st.com/en/evaluation-tools/eval-l9779wd-spi.html]]
+
+
+!!! Output drivers
+
+# OMNIFET II fully autoprotected Power MOSFET
+#* SO-8 package
+#* 2x outputs, 3.5A max each
+#* [[VNS3NV04DP-E|http://www.st.com/en/automotive-analog-and-power/vns3nv04dp-e.html]]
+#* [[Smart Power Solutions for Body Applications|http://www.st.com/content/ccc/resource/sales_and_marketing/promotional_material/selection_guide/01/9e/fe/53/2b/19/42/be/br_car_body.pdf/files/br_car_body.pdf/jcr:content/translations/en.br_car_body.pdf]]
+# Smart Quad Switch
+#* ~PowerSO-20 package
+#* 4x outputs at 2A each
+#* DIAGNOSTIC FUNCTIONS
+#** Open Load Detection (Output off, 100us filtering time)
+#** Short to Ground Detection (Output off, 100us - filtering time)
+#** Short to Battery Detection (Output on)
+#** Over temperature detection (Output on)
+#* [[LM9651|http://www.st.com/content/st_com/en/products/automotive-analog-and-power/high-and-low-side-drivers-switches/low-side-switches/l9651.html]]
+
+!!! Circuit Protection for Automotive Applications
+# [[LittleFuse|https://www.speed2design.com/education-center/circuit-protection-for-automotive-applications/]]
+#* TVS Diodes
+#* Varistor Design Guide
+
+!!! Housing
+#Delphi
+#* http://www.delphi.com/manufacturers/auto/powertrain/gas/ecm
+# ~ModICE/CINCH
+#* http://belfuse.com/product-detail/modice-modice
+#* [img[http://belfuse.com/contentAsset/image/3c352b35-31e0-4d0e-b766-be45b26ee262/fileAsset/filter/Scale/scale_w/250]]

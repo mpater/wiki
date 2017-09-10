@@ -1,0 +1,116 @@
+created: 20170429222620468
+modified: 20170618170710384
+tags: TableOfContents
+title: Lenovo Thinkpad
+type: text/vnd.tiddlywiki
+
+! Comparison
+|! |! Weight |!Battery| !Screen |
+|Y480 | 4.85lbs / 2.2kg | 62Wh - 4h | 1366×768 |
+|Mixx700 | 2.38lbs / 1.08kg | 62Wh - 4h | x |
+|T470 | 3.49 / 1.6 | 3-cell - 8:40h | x |
+|X1 Carbon 1st Gen | 3.39lbs / 1.54kg | x | 1600 x 900 |
+|X1 Carbon 2nd Gen | 2.95lbs / 1,34kg | 9h | 1600 x 900 or 2560 x 1440 |
+|X1 Carbon 3rd Gen | 2.88lbs / 1.31kg | 10h | 1920 x 1080 TN or 2560 x 1440 IPS|
+|X1 Carbon 4th Gen | 2.64lbs / 1.20kg | 10h | 1920 x 1080 IPS or 2560 x 1440 IPS |
+|T460s (20FA) | 2.99 / 1.36kg | 8h - 49Wh | 1920x1080 IPS or 2560x1440 IPS |
+
+* http://psref.lenovo.com/
+* https://www.reddit.com/r/thinkpad/comments/4dqxbn/x1_carbon_3rd_gen_tn_screen_upgrade/
+* https://forums.lenovo.com/t5/ThinkPad-X-Series-Laptops/X1-carbon-3rd-gen-lcd-panel-upgrade/m-p/2192056#M66388
+
+! X1 Carbon
+* https://www.thinkwiki.org/wiki/Category:X1_Carbon  
+* https://www.adamfowlerit.com/2017/04/five-generations-lenovo-x1-carbon/
+
+
+
+
+* X1 Carbon: ThinkPad X1 Carbon (Type 34xx), 1st generation, appeared in 2012
+** Intel® Core™ i5-3317U (1.7-2.6GHz, 3MB L3 cache)
+** Intel® Core™ i5-3337U (1.8-2.7GHz, 3MB L3 cache)
+** Intel® Core™ i5-3427U (1.8-2.8GHz, 3MB L3 cache)
+** Intel® Core™ i7-3667U (2.0-3.2GHz, 4MB L3 cache)
+**14.0" HD+ Matte screen (1600x900)
+* X1 Carbon 2nd: ThinkPad X1 Carbon 2nd (Type 20A7, 20A8), 2nd generation, appeared in 2014
+**Intel Core i7 4600U (3.30GHz 1600MHz 4MB)
+**Intel Core i5 4300U (2.90GHz 1600MHz 3MB)
+**Intel Core i5 4200U (2.60GHz 1600MHz 3MB)
+**14.0" WQHD (2560x1440), 260nit, IPS with or without 10-point multitouch
+**14.0" HD+ (1600x900), 260nit
+* X1 Carbon (3rd Gen): ThinkPad X1 Carbon 3rd (Type 20BS, 20BT), 3rd generation, released in 2015.
+**Intel® Core™ i5-5200M (2.2-2.7GHz, 3MB L3 cache)
+**Intel® Core™ i5-5300M (2.3-2.9GHz, 3MB L3 cache)
+**Intel® Core™ i7-5500U (2.4-3.0GHz, 4MB L3 cache)
+**Intel® Core™ i7-5600U (2.6-3.2GHz, 4MB L3 cache)
+**14.0" WQHD (2560x1440), 260nit, IPS with multitouch
+**14.0" WQHD (2560x1440), 300nit
+**14.0" HD+ (1920x1080), 300nit
+* X1 Carbon (4th Gen): ThinkPad X1 Carbon 4th (Type 20FB, 20FC), 4th generation, released in 2016.
+** Intel® Core™ i5-6200U (2.3-2.8GHz, 3MB L3 cache)
+** Intel® Core™ i5-6300U with vPro™ (2.4-3.0GHz, 3MB L3 cache)
+** Intel® Core™ i7-6500U (2.5-3.1GHz, 4MB L3 cache)
+** Intel® Core™ i7-6600U with vPro™ (2.6-3.4GHz, 4MB L3 cache)
+** 14.0" FHD (1920x1080), 300 nits
+** 14.0" WQHD (2560x1440), 300 nits
+* X1 Carbon (5th Gen): ThinkPad X1 Carbon 5th (Type 20HQ, 20HR), 5th generation, released in 2017.
+
+! X1 Carbon 3rd Gen LCD
+FHD TN panel to WQHD upgrade. [[Link1|https://forums.lenovo.com/t5/ThinkPad-X-Series-Laptops/X1-carbon-3rd-gen-lcd-panel-upgrade/td-p/2134148]], [[link2|https://www.reddit.com/r/thinkpad/comments/4dqxbn/x1_carbon_3rd_gen_tn_screen_upgrade/]].
+
+* [[Levnovo BoM|https://support.lenovo.com/gb/en/solutions/pd100192]]
+* [[20BS, 20BT BoM|https://download.lenovo.com/parts/ThinkPad/x1carbon_3_frubom_20150106.pdf]] (3rd gen)
+** 00HM151 - Cable - eDP,Non-Touch,WQHD
+** 00HM152 - Cable - eDP,Touch,WQHD
+** 00HT409 - Cable - LED CBL Touch
+** 00HN820 - AUO 14.0” FHD TN AG
+** 00HN821 - INX 14.0” FHD TN AG
+** ''00HN826 - LGD 14.0” WQHD IPS AG''
+** 00HN833 - HH140AG,LGD WQHD
+** 00HN842 - TPK140AG,LGD WQHD
+* 20FB, 20FC (4th gen)
+** 00JT849 N LCD,WQHD,CABLE
+** 00JT850 N LCD,FHD,CABLE
+** 00JT851 N LED,CAMERA,SNSR,CBL,C/S
+** 00HN873 N AUO 14.0 FHD IPS AG
+** ''00HN874 N AUO 14.0 FHD IPS AG''
+** 00HN877 N LGD 14.0 WQHD IPS AG
+** 00HN878 N Panasonic 14.0 WQHD IPS AG
+
+Possible panel (for 20BT model):
+
+* LG LP140WF1-SPU1 (matte) vs LP140WF1-SPK1 (glossy)
+** [[panelook.com|http://www.panelook.com/LP140WF1-SPU1_LG%20Display_14.0_LCM_overview_20496.html]] 
+** [[ebay listing|http://www.ebay.co.uk/itm/New-LP140WF1-SPU1-14-1920x1080-LED-Laptop-Screen-LCD-Panel-Replacement-Display-/381147340005?hash=item58be26dce5:g:JzoAAOSwpDdVXH4h]] - 40GBP
+** TODO: download this and other datasheet to veirfy
+* Samsung [[LTN140HL02-201|https://www.laptopscreen.com/English/screen-part-number/LTN140HL02-201/]] - 41.49GBP - [[panelook.com|http://www.panelook.com/modeldetail.php?id=27069]]
+** From this [[reddit|https://www.reddit.com/r/thinkpad/comments/3pgpdn/calibrated_icc_profile_x1c_3rd_gen_fhd_n140hgeea1/]]
+* Options from [[www.laptopscreens.com|https://www.laptopscreen.com/English/model/Lenovo/THINKPAD%20X1%20CARBON%2020BT%20SERIES/]] with '20BT' model
+** FHD matte - £41.32 - in-stock - IPS?
+** FHD glossy - £41.32 - in-stock - IPS?
+** 2560x1440 matte - £91.99 - no-stock - IPS
+
+Running Windows Hardware Detector finds the following:
+
+* N140HGE-EA1 -  [[PDF|https://www.touchandscreen.de/mediafiles//Infosheets/INNOLUX/N140HGE-EA1.pdf]] - [[www.panelook.com|http://www.panelook.com/modeldetail.php?id=22452]]
+** Innolux
+** TN display
+** Probably the following Lenovo PN: 00HN821
+** [[www.laptopscreens.com|https://www.laptopscreen.com/English/screen-part-number/N140HGE-EA1/]] have this listed for £36.01
+
+Maybe go for 4th gen listing? Check compatibility.
+
+*[[NEW 14.0" LED FHD DISPLAY SCREEN AG FOR IBM LENOVO THINKPAD X1 CARBON 4th GEN|http://www.ebay.co.uk/itm/NEW-14-0-LED-FHD-DISPLAY-SCREEN-AG-FOR-IBM-LENOVO-THINKPAD-X1-CARBON-4th-GEN-/401241560561?hash=item5d6bdc55f1:g:fAAAAOSw3gdXPwq3]] - £61.18
+
+Other options:
+
+* From [[X1 Carbon (1st Gen) FHD 1080p LCD screen upgrade kit|http://www.ebay.co.uk/itm/X1-Carbon-1st-Gen-FHD-1080p-LCD-screen-upgrade-kit-/232270359227?hash=item3614646abb:g:-poAAOSwImRYG1W6]]
+** B140HAN01.2
+** B140HAN01.3
+
+! T460s
+* T460s
+** Intel Core i5-6200U, 2,3 - 2,8 GHz, 3MB Cache
+** Intel Core i5-6300U, 2,4 - 3,0 GHz, 3MB Cache
+** Intel Core i7-6600U, 2,6 - 3,4 GHz, 4MB Cache
+** RAM: DDR4 PC3-17066 SO-DIMM SDRAM, 4GB or 8GB soldered + single socket.

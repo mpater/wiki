@@ -1,0 +1,19 @@
+created: 20170902103626671
+modified: 20170903093136474
+tags: TableOfContents
+title: PCB Manufacturing
+type: text/vnd.tiddlywiki
+
+!! ~KiCAD Layout
+[[Design for Manufacture in KiCad Part 1 – Assembly|https://rheingoldheavy.com/design-assembly-kicad/]]
+
+!! ~KiCAD ~BoM Generation
+* KICAD UTILITIES GENERATE PARTS; TRACK COSTS - [[link|https://hackaday.com/2015/12/05/kicad-utilities-generate-parts-track-costs/]]
+* KiCad BOM Generation -  [[link|https://productize.be/kicad-bom-generation/]]
+* https://github.com/Jeff-Ciesielski/Boms-Away
+
+!! Hardware Design Guides
+[[AN52209|http://www.cypress.com/file/278396/download]] - CY8CLED0xx0x ~PowerPSoC - Hardware Design Guidelines
+
+!! SMD Soldering
+https://hackaday.com/2017/06/27/an-hour-to-surface-mount/

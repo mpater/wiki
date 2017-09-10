@@ -1,0 +1,23 @@
+created: 20170902114459534
+modified: 20170903075554670
+tags: TableOfContents
+title: ECU Control Unit
+type: text/vnd.tiddlywiki
+
+!! ~McLaren
+
+* ~McLaren Control Units -[[link|http://www.mclaren.com/appliedtechnologies/products/list/#!/electronics/control-units]]
+** Electronic Control Unit - TAG-400N (NASCAR)
+** Electronic Control Unit - TAG-400
+** Electronic Control Unit - TAG-400i
+** Powertrain and Chassis Control Unit - OU-100
+** Powertrain Control Unit - TAG320
+
+* [[TAG-400N (NASCAR)|http://www.mclaren.com/appliedtechnologies/products/item/engine-control-unit-tag-400n/]]
+* [[TAG-310B|https://cs.wmich.edu/~bhardin/ece5150/F1/Unit_Cont_TAG-310B.pdf]]
+* [[Powertrain Control Unit TAG-320|http://www.mclaren.com/appliedtechnologies/products/item/powertrain-control-unit-tag-320/]]
+* [[Powertrain & Chassis Control Unit CIU-100|http://www.mclaren.com/appliedtechnologies/products/item/control-interface-unit-ciu-100/]]
+
+!! RB Racing
+[[Pectel SQ6M|https://www.rbracing-rsr.com/sq6m_pectel.html]] - The Best Value in Motorsports ECUs. <br>
+Great overview page with plenty of images and examples. Wiring diagrams and harness manufacturing techniques. Test-cell setup and example images. 

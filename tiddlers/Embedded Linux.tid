@@ -1,0 +1,56 @@
+created: 20170902111455648
+modified: 20170903074331080
+tags: TableOfContents
+title: Embedded Linux
+type: text/vnd.tiddlywiki
+
+!!! [[Free Electrons|http://free-electrons.com/]]
+* [[Embedded Linux training Lab book|http://free-electrons.com/doc/training/beagle/labs.pdf]]
+* [[Embedded Linux training|http://free-electrons.com/doc/training/beagle/slides.pdf]]
+* [[Embedded Linux Training - lab book|http://free-electrons.com/doc/training/embedded-linux/embedded-linux-labs.pdf]]
+
+!!! Other
+
+* [[Linux Kernel|http://free-electrons.com/doc/books/lkn.pdf]]
+* [[Comparison of real-time operating systems|https://en.wikipedia.org/wiki/Comparison_of_real-time_operating_systems]]
+
+!!! Toolchains
+
+http://elinux.org/Toolchains
+# 3 Getting a toolchain
+# 3.1 Prebuilt toolchains
+# 3.1.1 Free Electrons
+# 3.1.2 CodeSourcery
+# 3.1.3 Linaro (ARM)
+# 3.1.4 DENX ELDK
+# 3.1.5 Scratchbox
+# 3.1.6 Fedora ARM
+# 3.1.7 Debian cross-tools packages
+# 3.1.8 Free Pascal
+# 3.2 Toolchain building systems
+# 3.2.1 Buildroot
+# 3.2.2 OpenADK
+# 3.2.3 Crossdev (Gentoo)
+# 3.2.4 Crosstool-NG
+# 3.2.5 Crossdev/tsrpm (Timesys)
+# 3.2.6 EmbToolkit
+# 3.2.7 OSELAS.Toolchain()
+# 3.2.8 Bitbake
+
+!!! ~BeagleBoneBlack
+http://elinux.org/Beagleboard:BeagleBoneBlack
+
+[[Building BBB Kernel|http://elinux.org/Building_BBB_Kernel]]
+
+[[This is a page about TI's Cortex-A8 based; BeagleBone|https://eewiki.net/display/linuxonarm/BeagleBone]]
+
+
+https://github.com/shihyu
+
+http://elinux.org/Processors
+https://en.wikipedia.org/wiki/List_of_ARM_microarchitectures#Designed_by_ARM
+https://en.wikipedia.org/wiki/Atmel_ARM-based_processors
+
+!!!~LyrePrototype
+* [[link|https://www.rockbox.org/wiki/LyrePrototype]]
+* AT91SAM9260? + LCD NOKIA 6610 + 8MB flash + 8/16MB SDRAM

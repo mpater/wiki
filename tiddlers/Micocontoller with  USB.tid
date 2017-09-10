@@ -1,0 +1,33 @@
+created: 20170902112650383
+modified: 20170902114158945
+tags: TableOfContents
+title: Micocontoller with  USB
+type: text/vnd.tiddlywiki
+
+!! Microchip
+
+[[PIC24FJ128GB202|http://www.microchip.com/wwwproducts/en/PIC24FJ128GB202]]
+
+[[USB Products|http://www.microchip.com/ParamChartSearch/chart.aspx?branchID=111]]
+
+* PIC24FJ64GB002-I/SS-ND
+** IC MCU 16BIT 64KB FLASH 28SSOP
+** I²C, IrDA, SPI, UART/USART, USB OTG
+
+!! AVR
+
+[[Weeks 11-12: AVR USB Devices and Programming| http://fab.cba.mit.edu/classes/863.14/people/andrew_mao/week11/]]
+
+[[AVR4900|http://www.atmel.com/images/doc8360.pdf]]: ASF - USB Device stack
+
+ATMega [[search|https://www.digikey.co.uk/products/en/integrated-circuits-ics/embedded-microcontrollers/685?k=&pkeyword=avr+usb&pv157=6&pv157=92&FV=fffc0096%2C7e8000e%2C1f140000%2Cffe002ad%2C1164006c%2C1164007a%2C116400a6&mnonly=0&newproducts=0&ColumnSort=0&page=1&stock=1&quantity=0&ptm=0&fid=0&pageSize=25]]
+
+*[[ATMEGA32U2-AU-ND|https://www.digikey.co.uk/product-detail/en/microchip-technology/ATMEGA32U2-AU/ATMEGA32U2-AU-ND/2187167]]
+** IC MCU 8BIT 32KB FLASH 32TQFP
+** SPI, UART/USART, USB
+** 2.35
+
+[[AVR272|http://ww1.microchip.com/downloads/en/AppNotes/doc7619.pdf]]: USB CDC Demonstration UART to USB Bridge
+[[ABR910|http://ww1.microchip.com/downloads/en/AppNotes/Atmel-0943-In-System-Programming_ApplicationNote_AVR910.pdf]]: In System Programming
+
+ATmega16U2
