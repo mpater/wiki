@@ -1,5 +1,5 @@
 created: 20170903110637943
-modified: 20170903130051919
+modified: 20170910113338215
 tags: TableOfContents
 title: Linux Elec Programs
 type: text/vnd.tiddlywiki
@@ -16,3 +16,4 @@ type: text/vnd.tiddlywiki
 ** node.js
 * liclipse
 * qucs
+* OpenBench LogicSniffer Client (OSL)
